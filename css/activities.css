@@ -1,0 +1,117 @@
+.act-table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.act-table thead {
+    background-color: rgb(36, 35, 35);
+}
+
+.act-table thead tr th {
+    font-size: 1.4em;
+    border: solid 1px rgb(4, 219, 86);
+    padding: 3px!important;
+    color: white;
+}
+
+.act-table thead tr:nth-child(2) {
+    height: 30px;
+    background-color: rgb(207, 203, 203);
+}
+
+.act-table thead tr th[title~=diff] {
+    background-color: rgb(134, 4, 4);
+}
+
+.act-table thead tr th[title~=var] {
+    background-color: rgb(11, 194, 42);
+}
+
+.act-table thead tr th[title~=bud] {
+    background-color: rgb(7, 7, 7);
+}
+
+.act-table tbody tr {
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.1em;
+}
+
+.act-table tbody tr td:nth-child(4) {
+    background-color: rgb(134, 4, 4);
+}
+
+.act-table tbody tr:nth-child(2n) {
+    height: 30px;
+    background-color: rgb(126, 125, 128);
+    color: white;
+}
+
+.act-table tbody tr:nth-child(2n+1) {
+    height: 30px;
+    background-color: rgb(24, 6, 59);
+    color: white;
+}
+
+.act-table tbody tr td.empty {
+    background-color: rgb(175, 136, 255);
+    color: white;
+}
+
+.act-table tbody tr td {
+    border: solid 1px #ccc;
+    font-size: 0.9em;
+}
+
+.b-title {
+    color: #ffffff;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.table-empty {
+    width: 100%;
+}
+
+.table-empty {
+    font-size: 0.8em!important;
+    border: solid 5px rgb(4, 0, 255);
+}
+
+.table-empty thead tr:nth-child(2n) {
+    background-color: rgb(55, 247, 17);
+    color: black;
+    text-align: center;
+    font-size: 0.8em!important;
+}
+
+.table-empty thead tr:nth-child(2n+1) {
+    background-color: rgb(57, 218, 25);
+    color: black;
+    text-align: center;
+}
+
+.table-empty tbody tr:nth-child(2n) {
+    background-color: rgb(69, 102, 91);
+    color: white;
+    text-align: center;
+}
+
+.table-empty tbody tr:nth-child(2n+1) {
+    background-color: rgb(116, 91, 11);
+    color: white;
+    text-align: center;
+}
+
+.table-empty tfoot tr th {
+    background-color: rgb(194, 193, 192);
+    color: black;
+    text-align: right;
+    font-size: 1.2em;
+    padding-right: 50px;
+    border-bottom: solid 10px rgb(100, 99, 99);
+    border-left: solid 10px rgb(53, 53, 53);
+    ;
+}
